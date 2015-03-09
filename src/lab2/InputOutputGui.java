@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 /**
  * This class is responsible for all input and output in the program.
  * 
- * @author  Jim Lombardo, jlombardo@wctc.edu
+ * @author  Kerry Ritterbusch
  * @version 1.00
  */
 public class InputOutputGui {

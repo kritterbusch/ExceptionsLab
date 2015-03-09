@@ -4,7 +4,7 @@ package lab2;
  * This class provides various services relating to name manipulation. No output
  * should be performed here.
  *
- * @author Jim Lombardo, jlombardo@wctc.edu
+ * @author Kerry Ritterbusch
  * @version 1.00
  */
 public class NameService {
@@ -53,7 +53,7 @@ public class NameService {
      * @param name - any full name or part of a name.
      * @return the length of the name or part.
      */
-    public int getNameLength(String name){
+    public int getNameLength(String name)throws IllegalArgumentException{
         if (name == null) {
             throw new IllegalArgumentException(ERROR_NULL_NAME);
         }
@@ -61,4 +61,4 @@ public class NameService {
     }
 
 }
-//throw exceptions back to the class that handles the problems
+//throw exceptions back to the class that handles the problems (in this lab, InputOutputGui class)
